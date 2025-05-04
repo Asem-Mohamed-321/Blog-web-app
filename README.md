@@ -1,12 +1,45 @@
-# React + Vite
+# 📝 Blog Web-Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple full-featured blogging platform built using React.js and JSON Server (with json-server-auth) as a mock backend. (fully client side until now)
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🔐 Authentication – Register, login, and logout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📝 Post Management – Create, view, and delete blog posts
+
+🖼️ Post Images – Upload and display images with each post
+
+👤 User Profiles – Includes profile pictures for each user
+
+♾️ Infinite Scrolling – Seamlessly loads more posts as you scroll
+
+
+## 📦 Setup Instructions
+#### 1. Clone the repository:
+
+```
+git clone https://github.com/Asem-Mohamed-321/Blog-web-app
+cd blog-web-app
+```
+
+#### 2. Install dependencies:
+
+```
+npm install
+
+```
+#### 3. Start JSON Server:
+
+```
+npx json-server-auth src/db/db.json
+```
+#### 4. Start the app:
+
+```
+npm run dev
+```
+
+## 📌 Thanks To 
+#### Eng/Ahmed Zaghloul
