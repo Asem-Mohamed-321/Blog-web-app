@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "Welcome To the blog app",
+      "body": "hello this is the first post by the app .. start adding your posts now ;)",
+      "image": "src/images/welcome.jpg",
+      "postedBy": {
+        "userId": 0,
+        "username": "the blog app",
+        "profilePic": "src/assets/computer.jpg"
+      },
+      "date": "beyond time",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "asem@asem.com",
+      "password": "$2a$10$xct8120W4nOdM7E3Z235n.nHor2fnAWiVnRxBBlxRXwnGKl2vMTgC",
+      "username": "asem",
+      "profilePic": "src/assets/better.svg",
+      "id": 1
+    }
+  ]
+}
